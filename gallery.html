@@ -35,10 +35,24 @@
 
     <section class="section">
   <div class="container">
-    <h2 class="section-title reveal">Weddings</h2>
+    <h2 class="section-title reveal">Event Gallery</h2>
+
+    <div class="gallery-filters reveal">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="weddings">Weddings</button>
+      <button class="filter-btn" data-filter="decorations">Decorations</button>
+      <button class="filter-btn" data-filter="corporate">Corporate Events</button>
+    </div>
+
     <div class="gallery-grid">
-      <!-- Images now stored inside the 'weddings' folder -->
-      <img class="reveal" src="Weddings/ss.jpg" alt="Luxury wedding stage setup" loading="lazy" />
+      <img class="reveal gallery-item" data-category="weddings" src="Weddings/ss.jpg" alt="Wedding 1" loading="lazy" />
+      <img class="reveal gallery-item" data-category="weddings" src="images/weddings/wed2.jpg" alt="Wedding 2" loading="lazy" />
+
+      <img class="reveal gallery-item" data-category="decorations" src="images/decorations/decor1.jpg" alt="Decoration 1" loading="lazy" />
+      <img class="reveal gallery-item" data-category="decorations" src="images/decorations/decor2.jpg" alt="Decoration 2" loading="lazy" />
+
+      <img class="reveal gallery-item" data-category="corporate" src="images/corporate/corp1.jpg" alt="Corporate 1" loading="lazy" />
+      <img class="reveal gallery-item" data-category="corporate" src="images/corporate/corp2.jpg" alt="Corporate 2" loading="lazy" />
     </div>
   </div>
 </section>
