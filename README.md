@@ -31,7 +31,7 @@ A premium, culturally rich, multi-page website for **Lakshmi Events** built with
 
 ## Deploy on GitHub Pages
 
-1. Create a new GitHub repository, for example: `sabari-events-website`.
+1. Create a new GitHub repository, for example: `Lakshmi-events-website`.
 2. Upload all files in this folder to the repository root.
 3. Go to **Settings > Pages**.
 4. Under **Build and deployment**, select:
@@ -40,7 +40,7 @@ A premium, culturally rich, multi-page website for **Lakshmi Events** built with
    - Folder: `/ (root)`
 5. Save and wait 1-2 minutes.
 6. Your site will be live at:
-   - `https://<your-github-username>.github.io/sabari-events-website/`
+   - `https://<your-github-username>.github.io/Lakshmi-events-website/`
 
 ## Optional Custom Domain
 
