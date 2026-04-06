@@ -1,6 +1,6 @@
-# Sabari Events Website
+# Lakshmi Events Website
 
-A premium, culturally rich, multi-page website for **Sabari Events** built with HTML, CSS, and JavaScript.
+A premium, culturally rich, multi-page website for **Lakshmi Events** built with HTML, CSS, and JavaScript.
 
 ## Pages
 
