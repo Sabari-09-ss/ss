@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Contact Sabari Events for weddings, traditional ceremonies, corporate and private event planning inquiries in India." />
+  <title>Contact | Sabari Events</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html">Sabari Events</a>
+      <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+      <nav class="site-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html" class="active">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero page-hero-contact">
+      <div class="container reveal">
+        <h1>Let's Plan Something Beautiful</h1>
+        <p>Share your event details and our team will reach out soon.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container contact-layout">
+        <div class="reveal">
+          <h2>Inquiry Form</h2>
+          <p>
+            Looking for a premium event planning team with cultural depth? Fill
+            out your details and we will craft a celebration tailored to your story.
+          </p>
+          <form class="contact-form" action="https://formspree.io/f/your-form-id" method="POST">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" required />
+
+            <label for="phone">Phone</label>
+            <input id="phone" name="phone" type="tel" required />
+
+            <label for="event-type">Event Type</label>
+            <select id="event-type" name="eventType" required>
+              <option value="">Select an option</option>
+              <option>Wedding</option>
+              <option>Traditional Ceremony</option>
+              <option>Corporate Event</option>
+              <option>Private Celebration</option>
+            </select>
+
+            <label for="event-date">Event Date</label>
+            <input id="event-date" name="eventDate" type="date" required />
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell us about your vision, venue, and guest count." required></textarea>
+
+            <button type="submit" class="btn btn-primary">Send Inquiry</button>
+          </form>
+        </div>
+
+        <aside class="contact-card reveal">
+          <h3>Connect Instantly</h3>
+          <p>Prefer a quick conversation? Chat with us on WhatsApp.</p>
+          <a class="btn btn-outline block" href="https://wa.me/919999999999?text=Hello%20Sabari%20Events%2C%20I%20would%20like%20to%20book%20an%20event." target="_blank" rel="noopener">
+            Chat on WhatsApp
+          </a>
+
+          <h3>Follow Our Journey</h3>
+          <p>Discover festive decor ideas and celebration stories.</p>
+          <a class="btn btn-outline block" href="https://instagram.com/" target="_blank" rel="noopener">
+            Visit Instagram
+          </a>
+
+          <div class="instagram-placeholder">
+            <h4>Instagram Feed</h4>
+            <p>
+              Replace this with your official Instagram embed code to display
+              live reels and posts.
+            </p>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <p>© <span id="year"></span> Sabari Events. Crafted with tradition and elegance.</p>
+      <a href="https://instagram.com/" target="_blank" rel="noopener">Instagram</a>
+    </div>
+  </footer>
+
+  <a class="whatsapp-float" href="https://wa.me/919999999999?text=Hello%20Sabari%20Events%2C%20I%20would%20like%20to%20plan%20an%20event." target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+    WhatsApp
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
